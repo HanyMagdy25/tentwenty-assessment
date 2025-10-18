@@ -1,5 +1,10 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
+// assets
+import img1 from "../assets/img1.jpg";
+import img2 from "../assets/img2.jpg";
+import img3 from "../assets/img3.jpg";
+import img4 from "../assets/img4.jpg";
 
 const FarmHeroSlider = () => {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -9,29 +14,25 @@ const FarmHeroSlider = () => {
 
   const slides = [
     {
-      image:
-        "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1920&h=1080&fit=crop&q=80",
+      image: img1,
       title: "From Our Farms",
       subtitle: "To Your Hands",
       welcome: "Welcome To Tertwenty Farms",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1920&h=1080&fit=crop&q=80",
+      image: img2,
       title: "Fresh Produce",
       subtitle: "Every Season",
       welcome: "Quality You Can Trust",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=1920&h=1080&fit=crop&q=80",
+      image: img3,
       title: "Sustainable Farming",
       subtitle: "For Tomorrow",
       welcome: "Growing With Care",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=1920&h=1080&fit=crop&q=80",
+      image: img4,
       title: "Organic Excellence",
       subtitle: "Natural Goodness",
       welcome: "Pure & Healthy",
