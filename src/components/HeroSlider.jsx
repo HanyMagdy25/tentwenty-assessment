@@ -103,7 +103,7 @@ const FarmHeroSlider = () => {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50" />
-                <div className="absolute top-1/2 left-8 md:left-28 transform -translate-y-1/2 flex items-center justify-center z-10">
+                <div className="absolute top-1/2 left-6 md:left-28 transform -translate-y-1/2 flex items-center justify-center z-10">
                   <motion.div
                     className="text-custom-white-color"
                     initial={{ opacity: 0, y: 20 }}
@@ -146,7 +146,7 @@ const FarmHeroSlider = () => {
       </div>
 
       {/* Bottom Navigation */}
-      <div className="absolute bottom-12 left-8 md:left-28 z-20 flex items-center gap-4 md:gap-8">
+      <div className="absolute bottom-12 left-6 md:left-28 z-20 flex items-center gap-4 md:gap-8">
         {/* Thumbnail with Next Button */}
         <motion.div
           className="relative w-32 h-32 md:w-36 md:h-36 overflow-hidden shadow-2xl 
